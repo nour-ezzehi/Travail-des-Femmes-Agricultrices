@@ -1,4 +1,4 @@
-📊 Analysis of Model Performance Your classification reports show imbalanced performance across different target variables. Let's break it down:
+📊 Analysis of Model Performance. The classification reports show imbalanced performance across different target variables. Let's break it down:
 
 🔹 Troubles cardio-respiratoires Accuracy: 69% → Not bad, but we need to analyze class balance. Precision (Class 1): 1.00 → When the model predicts class 1, it's always correct. Recall (Class 1): 0.17 → Very low. The model is missing a lot of actual 1s. 💡 Issue: The model is biased toward class 0, detecting almost all 0s but missing most 1s.
 
